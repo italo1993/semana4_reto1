@@ -1,0 +1,89 @@
+body {
+	background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+	width: 375px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+}
+
+.section2{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+
+h1 {
+	font-family: 'Fraunces', serif;
+    font-size: 32px;
+    margin-top: 05px;
+    margin-bottom: 05px;
+}
+
+h2 {
+	color: hsl(228, 12%, 48%);
+	font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 05px;
+    font-weight: 400;
+}
+
+.parrafo {
+	font-family: 'Montserrat', sans-serif;
+	color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.section3{
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.precio-actual {
+	color: hsl(158, 36%, 37%);
+	font-family: 'Fraunces', serif;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.precio-antiguo {
+	color: hsl(228, 12%, 48%);
+	font-family: 'Montserrat', sans-serif;
+    padding-left: 15px;
+    font-size: 10px;
+    text-decoration: line-through;
+    position:absolute;
+    top: 13px;
+}
+
+button {
+	background-color: hsl(158, 36%, 37%);
+    margin-top: 5px;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color:white;
+    width: 100%;
+    height: 47px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+}
+.cart{
+    margin-left: 7px;
+}
